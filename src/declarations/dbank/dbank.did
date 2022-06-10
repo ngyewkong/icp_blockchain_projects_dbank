@@ -1,0 +1,7 @@
+service : {
+  checkBalance: () -> (float64) query;
+  checkTime: () -> (int) query;
+  compound: () -> () oneway;
+  topUp: (float64) -> () oneway;
+  withdraw: (float64) -> () oneway;
+}
